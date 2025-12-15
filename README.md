@@ -13,7 +13,7 @@ The data is preprocessed and reorganized according to:
 - an **ER schema** for MySQL  
 - a **document-based schema** for MongoDB
 and then loaded on the respective DB.
-- Notice that by getting the dataset from kaggle, it may happen that in the loading process some entry may cause some problems with foreign key. To solve this one can open the csv file and remove the entry with the id that cause the conflict.
+
 
 For the comparison instead the matric to evaluate the performance of the DBs on this dataset are:
 - data loading time
@@ -31,7 +31,7 @@ This project uses:
 - `ratings.csv` — user ratings for the movies  
 
 These files are cleaned and transformed before being loaded into the databases.
-
+- Notice that by getting the dataset from kaggle, it may happen that in the loading process some entry may cause some problems with foreign key. To solve this one can open the csv file and remove the entry with the id that cause the conflict.
 ---
 
 ## Dependencies
